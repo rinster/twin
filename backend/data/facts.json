@@ -1,0 +1,24 @@
+{
+    "full_name": "Erine Tieu",
+    "name": "Rin",
+    "current_role": "Software Engineer",
+    "location": "San Jose, CA",
+    "email": "your.email@example.com",
+    "linkedin": "linkedin.com/in/erine-tieu",
+    "specialties": [
+      "Conversational AI",
+      "Natural Language Processing",
+      "Machine Learning"
+    ],
+    "years_experience": 6,
+    "education": [
+      {
+        "degree": "Bachelors Degree",
+        "institution": "UC Berkeley"
+      },
+      {
+        "degree": "Associate in Science, AI, CIS",
+        "institution": "Mission College"
+      }
+    ]
+  }

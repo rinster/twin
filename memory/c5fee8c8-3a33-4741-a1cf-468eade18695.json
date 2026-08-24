@@ -1,0 +1,22 @@
+[
+  {
+    "role": "user",
+    "content": "hello!",
+    "timestamp": "2026-08-23T20:42:50.486502"
+  },
+  {
+    "role": "assistant",
+    "content": "Hi there! Welcome to my website. How can I assist you today?",
+    "timestamp": "2026-08-23T20:42:50.486515"
+  },
+  {
+    "role": "user",
+    "content": "I am misty, I would like information on this person's linked in?",
+    "timestamp": "2026-08-23T20:43:12.328285"
+  },
+  {
+    "role": "assistant",
+    "content": "Hello Misty! I\u2019d be happy to help you with that. You can find my LinkedIn profile at [linkedin.com/in/erine-tieu](https://linkedin.com/in/erine-tieu). It contains details about my professional background, skills, and experience. If you have any specific questions or need more information, feel free to ask!",
+    "timestamp": "2026-08-23T20:43:12.328296"
+  }
+]
