@@ -4,5 +4,5 @@ bedrock_model_id         = "us.amazon.nova-micro-v1:0"
 lambda_timeout           = 60
 api_throttle_burst_limit = 20
 api_throttle_rate_limit  = 10
-use_custom_domain        = false
+use_custom_domain        = false  # Set to true later only if you have a real domain in Route 53.
 root_domain              = ""
