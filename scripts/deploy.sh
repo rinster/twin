@@ -28,8 +28,8 @@ else
   terraform workspace select "$ENVIRONMENT"
 fi
 
-# Use prod.tfvars for production environment
-if [ "$ENVIRONMENT" = "prod" ]; then
+# Use prod.tfvars for production when the file is present
+if [ "$ENVIRONMENT" = "prod" ] && [ -f "prod.tfvars" ]; then
   TF_APPLY_CMD=(terraform apply -var-file=prod.tfvars -var="project_name=$PROJECT_NAME" -var="environment=$ENVIRONMENT" -auto-approve)
 else
   TF_APPLY_CMD=(terraform apply -var="project_name=$PROJECT_NAME" -var="environment=$ENVIRONMENT" -auto-approve)
